@@ -41,7 +41,8 @@
     "@stdlib/slice-ctor": "github:stdlib-js/slice-ctor#main",
     "@stdlib/slice-multi": "github:stdlib-js/slice-multi#main",
     "@stdlib/string-base-trim": "^0.0.2",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/types": "^0.0.14",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-multi-slice": "github:stdlib-js/assert-is-multi-slice#main",
