@@ -45,38 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/slice-base-seq2multislice
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-seq2multislice = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var seq2multislice = require( 'path/to/vendor/umd/slice-base-seq2multislice/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.seq2multislice;
-})();
-</script>
+var seq2multislice = require( '@stdlib/slice-base-seq2multislice' );
 ```
 
 <a name="main"></a>
@@ -174,13 +166,8 @@ A returned error object may have one of the following error codes:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var seq2multislice = require( '@stdlib/slice-base-seq2multislice' );
 
 var s = seq2multislice( ':,:,:', [ 10, 10, 10 ], false );
 var d = s.data;
@@ -200,11 +187,6 @@ d = s.data;
 
 s = seq2multislice( 'foo,bar', [ 10, 10 ], false );
 // returns { 'code': 'ERR_SLICE_INVALID_SUBSEQUENCE' }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -296,9 +278,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/slice-base-seq2multislice/main/LICENSE
 
-[@stdlib/slice/multi]: https://github.com/stdlib-js/slice-multi/tree/umd
+[@stdlib/slice/multi]: https://github.com/stdlib-js/slice-multi
 
-[@stdlib/slice/base/seq2slice]: https://github.com/stdlib-js/slice-base-seq2slice/tree/umd
+[@stdlib/slice/base/seq2slice]: https://github.com/stdlib-js/slice-base-seq2slice
 
 </section>
 
