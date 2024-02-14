@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import seq2multislice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@esm/index.mjs';
+import seq2multislice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@v0.2.0-esm/index.mjs';
 ```
 
 <a name="main"></a>
@@ -156,7 +156,7 @@ A returned error object may have one of the following error codes:
 <body>
 <script type="module">
 
-import seq2multislice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@esm/index.mjs';
+import seq2multislice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@v0.2.0-esm/index.mjs';
 
 var s = seq2multislice( ':,:,:', [ 10, 10, 10 ], false );
 var d = s.data;
