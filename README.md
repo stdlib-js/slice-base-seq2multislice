@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-seq2multislice = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@umd/browser.js' )
+seq2multislice = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var seq2multislice = require( 'path/to/vendor/umd/slice-base-seq2multislice/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -178,7 +178,7 @@ A returned error object may have one of the following error codes:
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-seq2multislice@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
