@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="v0.2.2">
+<section class="release" id="unreleased">
 
-## 0.2.2 (2024-07-27)
+## Unreleased (2024-08-01)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`aaa391a`](https://github.com/stdlib-js/stdlib/commit/aaa391a46214c21dca294506d06ac0b3d59512ce) - **chore:** fix typos _(by Philipp Burckhardt)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
 
 </details>
 
@@ -26,11 +26,21 @@
 
 A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Philipp Burckhardt
+-   Athan Reines
 
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.2">
+
+## 0.2.2 (2024-07-27)
+
+No changes reported for this release.
 
 </section>
 
@@ -50,31 +60,7 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`109746a`](https://github.com/stdlib-js/stdlib/commit/109746a235c41d431df26671ee53019cd551896c) - **refactor:** use utility to create a MultiSlice from a list of arguments _(by Athan Reines)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
@@ -84,41 +70,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-23)
 
-<section class="features">
-
-### Features
-
--   [`3bf733b`](https://github.com/stdlib-js/stdlib/commit/3bf733b4e758503442f10b69b85e2a239fa16a39) - add `slice/base/seq2multislice`
-
-</section>
-
-<!-- /.features -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`3bf733b`](https://github.com/stdlib-js/stdlib/commit/3bf733b4e758503442f10b69b85e2a239fa16a39) - **feat:** add `slice/base/seq2multislice` _(by Athan Reines)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
