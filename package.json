@@ -41,7 +41,8 @@
     "@stdlib/slice-base-seq2slice": "^0.2.2",
     "@stdlib/slice-ctor": "^0.2.2",
     "@stdlib/string-base-trim": "^0.2.2",
-    "@stdlib/types": "^0.3.2"
+    "@stdlib/types": "^0.3.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-multi-slice": "^0.2.2",
