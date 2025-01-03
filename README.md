@@ -207,6 +207,13 @@ s = seq2multislice( 'foo,bar', [ 10, 10 ], false );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/slice-base/seq2slice`][@stdlib/slice/base/seq2slice]</span><span class="delimiter">: </span><span class="description">convert a subsequence string to a Slice object.</span>
+-   <span class="package-name">[`@stdlib/slice-base/sargs2multislice`][@stdlib/slice/base/sargs2multislice]</span><span class="delimiter">: </span><span class="description">create a MultiSlice object from a comma-separated list of string-serialized MultiSlice constructor arguments.</span>
+
 </section>
 
 <!-- /.related -->
@@ -237,7 +244,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -286,6 +293,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/slice/multi]: https://github.com/stdlib-js/slice-multi
 
 [@stdlib/slice/base/seq2slice]: https://github.com/stdlib-js/slice-base-seq2slice
+
+<!-- <related-links> -->
+
+[@stdlib/slice/base/sargs2multislice]: https://github.com/stdlib-js/slice-base-sargs2multislice
+
+<!-- </related-links> -->
 
 </section>
 
