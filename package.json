@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/slice-base-seq2multislice",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Convert a multidimensional subsequence string to a MultiSlice object.",
   "license": "Apache-2.0",
   "author": {
@@ -38,14 +38,14 @@
   },
   "dependencies": {
     "@stdlib/slice-base-args2multislice": "^0.2.2",
-    "@stdlib/slice-base-seq2slice": "^0.2.2",
-    "@stdlib/slice-ctor": "^0.2.2",
-    "@stdlib/string-base-trim": "^0.2.2",
+    "@stdlib/slice-base-seq2slice": "^0.2.3",
+    "@stdlib/slice-ctor": "^0.2.3",
+    "@stdlib/string-base-trim": "^0.2.3",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-multi-slice": "^0.2.2",
-    "@stdlib/assert-is-slice": "^0.2.2",
+    "@stdlib/assert-is-slice": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
